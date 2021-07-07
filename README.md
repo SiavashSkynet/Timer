@@ -23,5 +23,8 @@ Enable the timer.
 ## update()
 update() goes inside loop(), which does the checks every clock cycle.
 
+##start()
+start timer
+
 ## setInterval( unsigned long myPeriod )
 Used to change the interval after you had set it.
