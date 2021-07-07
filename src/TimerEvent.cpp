@@ -41,3 +41,17 @@ void TimerEvent::update(){
 void TimerEvent::setInterval( unsigned long myPeriod){
 	period = myPeriod;
 }
+
+bool TimerEvent::start() {
+	
+	bool turn = false ; 
+	unsigned long cnt = millis() - timer ;  
+	if ( (cnt >= period)) {
+
+		turn = true;
+		timer = millis();
+		function(); 
+
+	}
+	return turn ; 
+}
