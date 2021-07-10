@@ -1,5 +1,5 @@
 # TimerEvent
-TimerEvent provides an easy way to trigger functions every set time and is a non-blocking alternative to delay() function. TimerEvent is based on TimedAction 1.6 by Alexander Brevig (alexanderbrevig@gmail.com). It is updated to work with Arduino IDE 1.8.5.in this for I did add a start function to help developers to use timer more easier .
+TimerEvent provides an easy way to trigger functions every set time and is a non-blocking alternative to delay() function. TimerEvent is based on TimedAction 1.6 by Alexander Brevig (alexanderbrevig@gmail.com). It is updated to work with Arduino IDE 1.8.5. in this fork I did add a start function to help developers to use timer more easier .
 for any commit and sugestion please send me an Email : (shojaee.skynet@gmail.com)
 
 
